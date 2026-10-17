@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/bebas-neue/400.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,20 +17,22 @@ export const SITE: Site = {
   "lon": 77.0424104,
   "hours": [],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
-    "weight": 800,
-    "upper": false,
-    "accent": "#4d7c0f"
+    "dark": true,
+    "bg": "#0c0b05",
+    "bg2": "#15140e",
+    "panel": "#1b1a14",
+    "ink": "#f6f2e8",
+    "ink2": "#c3bfb6",
+    "ink3": "#86837b",
+    "line": "#272620",
+    "accent": "#ffe03d",
+    "onAccent": "#29240a",
+    "display": "Bebas Neue",
+    "weight": 400,
+    "upper": true
   },
+  "scene": "kettlebell",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -47,13 +48,7 @@ export const SITE: Site = {
       "en": "4.8 on Google from 286 reviews. Members write about owner and trainer Parvinder, boxing training and a gym that is friendly for women in Sector 38.",
       "hi": "गूगल पर 286 रिव्यू से 4.8। मेंबर मालिक और ट्रेनर परविंदर, बॉक्सिंग ट्रेनिंग और सेक्टर 38 के ऐसे जिम के बारे में लिखते हैं जो महिलाओं के लिए अनुकूल है।"
     },
-    "fallback": "/img/p3.jpg",
-    "slides": [
-      "/img/p3.jpg",
-      "/img/p12.jpg",
-      "/img/p10.jpg",
-      "/img/p7.jpg"
-    ]
+    "fallback": "/img/p3.jpg"
   },
   "marquee": [
     "Strength",
@@ -308,5 +303,40 @@ export const SITE: Site = {
       "en": "Hi Energy Zone Gym, I'd like to enquire:",
       "hi": "नमस्ते एनर्जी ज़ोन जिम, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Coach",
+        "hi": "कोच"
+      },
+      "title": {
+        "en": "Run by a national-level boxer.",
+        "hi": "नेशनल लेवल बॉक्सर का जिम।"
+      },
+      "quote": "Gym owner national level boxing player"
+    },
+    {
+      "kicker": {
+        "en": "Results",
+        "hi": "नतीजे"
+      },
+      "title": {
+        "en": "4 kg down in one month.",
+        "hi": "एक महीने में 4 किलो कम।"
+      },
+      "quote": "I have loss 4kg in one month though guidance of Parvinder combination of diet wieght training boxing training."
+    },
+    {
+      "kicker": {
+        "en": "Muscle",
+        "hi": "मसल"
+      },
+      "title": {
+        "en": "7 kg of muscle in two months.",
+        "hi": "दो महीने में 7 किलो मसल।"
+      },
+      "quote": "I am coming from past two months to this gym and I have gained 7kgs of muscle mass."
+    }
+  ]
 };
